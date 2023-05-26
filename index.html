@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Srajan Nairy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90815c6375.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="LOGO1.png" alt="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p>Intern @ TCS</p>
+            <h1>Hi, I'm <span>Srajan Nairy</span> <br>from RNSIT</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p><ul>
+                    <li>A highly motivated, detail-oriented and deadline-driven undergraduate, pursuing B.E in Electronics and Communication.</li>
+                    <li>Seeking roles that will help me realize my potential by exploring various aspects and help me gain perspective.
+                    </li>
+                    <li>Looking forward to work in a organization which will provide me with ample opportunities to enhance my skills and
+                        knowledge, along with contributing to the growth of the organization</li>
+                </ul></p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Competitive Programming</li>
+                        <li><span>Web Development </span><br>Web Design using HTML CSS & JS</li>
+                        <li><span>App Development(Beginner) </span><br>Android/iOS apps using Kotlin </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>29th March 2023 - Present</span><br>Intern @ Tata Consultancy Services <br>Bangalore,India</li>
+                        <li><span>1st January 2023 - 31st March 2023 </span><br>Web Development intern @ Gearmod Pvt Ltd(remote) <br>London,United Kingdom</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - Present</span><br>B.E in Electronics and Communication <br>RNS INSTITUTE OF TECHNOLOGY Bangalore <BR>CGPA : 8.3</BR></li>
+                        <li><span>2017-2019 </span><br>Class 12th <br>ALVA'S Pre-University College Mudbidri D.K <br>Percentage : 90.33%</li>
+                        <li><span>2016 - 2017</span><br>class 10th <br>M.E.S Kishore Kendra Malleshwaram Bangalore <br>Percentage : 95.2% </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>Programming Fundamentals</span><br>issued by Duke University <br><a href="https://www.coursera.org/account/accomplishments/certificate/FU7XGYLVXXFT">view certificate</a></li>
+                        <li><span>Programming For Everybody</span><br>issued by University of Michigan<br><a href="https://www.coursera.org/account/accomplishments/certificate/2S3UUEPVXPJZ">view certificate</a></li>
+                        <li><span>Introduction To Solar Cells </span><br>issued by Technical University of Denmark <br><a href="https://www.coursera.org/account/accomplishments/certificate/JJJGCBRUN8EL">view certificate</a></li>
+                        <li><span>Introduction To Mobile Robots</span><br>issued by Georgia Institute Of Technology <br><a href="https://www.coursera.org/account/accomplishments/certificate/KN6S4W6TMQQX">view certificate</a></li>
+                        <li><span>Digital Skills : Artificial Inteligence</span><br>issued by Accenture <br><a href="https://www.futurelearn.com/certificates/ipv9gls">view certificate</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development </h2>
+                <p>Every Website should be built with two primary goals : Firstly, it
+                needs to work across all devices. Secondly, it needs to be fast as 
+                possible</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX design</h2>
+                <p>UI/UX designs are focused on visual touchpoints that let users interact with a product. This can include typography , color palettes , buttons , animation and other imagery</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Development</h2>
+                <p>A useful app built with a unique idea can bring you millions of users and customers.</p>
+                
+            </div>    
+            
+
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-111.jpg">
+                <div class="layer">
+                    <h3>Design of microstrip patch antenna</h3>
+                    <p>we designed a eliptical microstrip patch antenna which had desirable gain for 5G applications using ANSYS HFSS tool. The results were in acceptable range. </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-21.jpg">
+                <div class="layer">
+                    <h3>Radio Over Fiber over front haul link</h3>
+                    <p>We designed a RoF system in which we got desirable results . This project was done using OptiSystem 7.0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> 1rn19ec140.srajan.s.nairy@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7026956082</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/srajans.nairy"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/SrajanNairy"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://in.linkedin.com/in/srajannairy"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/__srajan__nairy__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.link/kbuova"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="SRAJAN NAIRY CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>  
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  <i class="fa-regular fa-copyright"></i>  Srajan Nairy </p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+        
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbww5C8pa5NB-y6DE7byNNqL0iIEcyfpqLSvJFMxK4CxY2X3XaI8y3iRxbwGWai9yZf9yg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
